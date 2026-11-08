@@ -71,6 +71,7 @@ button{font:inherit;cursor:pointer;border:0;color:inherit}
 #loading{display:flex;color:#fff4dc;font-weight:900;letter-spacing:.2em}
 @media (max-aspect-ratio:1/1){.up button{min-width:52px;font-size:12px;padding:6px 4px}.up b{font-size:12px}#quest{max-width:80vw;font-size:12px}#panel{width:calc(100vw - 20px);right:10px;top:auto;bottom:calc(max(12px,env(safe-area-inset-bottom)) + 140px);transform:translateY(calc(100% + 200px))}#panel.open{transform:none}#ups{grid-template-columns:1fr 1fr}.up .hk{display:none}.sk .key{display:none}}
 @media (max-aspect-ratio:1/1){
+html.aim canvas{cursor:crosshair}
 html.touch #panel{bottom:calc(max(12px,env(safe-area-inset-bottom)) + 150px)!important;max-height:none!important}
 html.touch #ups{grid-template-columns:repeat(4,1fr)!important;gap:5px!important;padding:6px!important}
 html.touch .up{flex-direction:column;gap:3px!important;padding:5px 3px!important;text-align:center}
